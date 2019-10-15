@@ -43,5 +43,3 @@ while True:
       datasent = ujson.dumps(datas)
       sent = urequests.put(URL,data = datasent)
       sent.close()
-      
-      sent.close()
