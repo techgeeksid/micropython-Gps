@@ -8,7 +8,7 @@ import ujson
 
 s = MicropyGPS()
 uart = UART(1, rx=33, tx=32, baudrate=9600)
-URL = 'https://micropy1.firebaseio.com/bus1.json'
+URL = 'firebase url'
 num = 0
 
 def intern():
